@@ -1310,3 +1310,121 @@ header .container ul.sub li a i {
     }
 }
 /* End how it Works */
+
+/* Start footer */
+footer {
+    background-color: #191919;
+    padding: 70px 0 0;
+    color: #fff;
+}
+
+footer .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 40px;
+}
+
+footer .container .column:first-child h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+footer .container .column:first-child a {
+    color: #b9b9b9;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    margin: 20px 10px 20px 0;
+    background-color: #313131;
+    transition: .3s;
+}
+footer .container .column:first-child a:first-child:hover {
+    background-color: #1877f2;
+}
+footer .container .column:first-child a:hover {
+    background-color: #1DA1F2;
+}
+
+footer .container .column:first-child a:last-child:hover {
+    background-color: #FF0000;
+}
+
+footer .container .column:first-child p {
+    font-size: 1rem;
+    color: #b9b9b9;
+    line-height: 1.8;
+}
+
+footer .container img {
+    width: 80px;
+    border: solid 3px #fff;
+}
+
+footer .container .column:nth-child(2) .row {
+    display: flex;
+    align-items: center;
+    font-size: .9rem;
+    color: var(--main-color);
+    padding: 5px 0;
+    transition: .3s;
+    cursor: pointer;
+}
+footer .container .column:nth-child(2) .row:not(:last-child) {
+    border-bottom: 1px solid #3b3b3b;
+}
+
+footer .container .column:nth-child(2) .row h1 {
+    font-size: 1rem;
+    margin-left: 10px;
+    font-weight: 100;
+    color: #e8e8e8;
+}
+footer .container .column:nth-child(2) .row:hover {
+    padding-left: 15px;
+}
+
+footer .container .column:nth-child(3) .row {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 40px;
+}
+
+footer .container .column:nth-child(3) .row i {
+    font-size: 1.3rem;
+    color: var(--main-color);
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+footer .container .column:nth-child(3) .row p {
+    font-size: 1rem;
+    margin-left: 10px;
+    line-height: 1.4;
+    color: #e8e8e8;
+}
+
+footer .tail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin-top: 40px;
+    border-top: solid 1px #3b3b3b;
+}
+
+footer .tail p {
+    font-size: 1rem;
+    color: #e8e8e8;
+}
+footer .tail p span {
+    color: var(--main-color);
+    font-weight: bolder;
+}
+/* End footer */
